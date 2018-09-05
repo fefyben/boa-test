@@ -1,8 +1,8 @@
 // Call the getJson function after the html document was loaded and parsed
-document.addEventListener('DOMContentLoaded', getJSON);
+document.addEventListener('DOMContentLoaded', getJson);
 
 // Get groceries json file data
-function getJSON() {
+function getJson() {
   // Fetch data from json file
   fetch('groceries.json')
     // Response from promisse
