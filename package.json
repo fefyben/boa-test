@@ -1,0 +1,30 @@
+{
+  "name": "boa-test",
+  "version": "1.0.0",
+  "description": "This is coding test for Bank of America.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fefyben/boa-test.git"
+  },
+  "author": "Fernanda Benites",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fefyben/boa-test/issues"
+  },
+  "homepage": "https://github.com/fefyben/boa-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-uglify": "^3.0.1"
+  },
+  "dependencies": {}
+}

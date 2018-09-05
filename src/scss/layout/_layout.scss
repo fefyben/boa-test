@@ -1,0 +1,36 @@
+.container {
+  @include breakpoint(sm) {
+    padding: 2rem 1rem;
+  }
+
+  @include breakpoint(md) {
+    padding: 3rem 1.5rem;
+  }
+
+  @include breakpoint(lg) {
+    margin: 3rem auto;
+    max-width: 98rem;
+  }
+}
+
+.grid {
+  display: grid;
+  justify-items: stretch;
+  width: 100%;
+
+  @include breakpoint(sm) {
+    grid-gap: 1rem;
+  }
+
+  @include breakpoint(md) {
+    grid-gap: 1.5rem;
+  }
+
+  @include breakpoint(lg) {
+    grid-gap: 2rem;
+  }
+  
+  @include breakpoint(md-lg) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

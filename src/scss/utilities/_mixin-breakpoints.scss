@@ -1,0 +1,15 @@
+// Mixin breakpoints definitions
+@mixin breakpoint($point) {
+  @if $point == sm { // small
+    @media (min-width: 320px) and (max-width: 767px) { @content; }
+  }
+  @else if $point == md  { // Medium
+    @media (min-width: 768px) and (max-width: 1024px) { @content; }
+  }
+  @else if $point == md-lg  { // Medium and Large
+    @media (min-width: 768px) { @content; }
+  }
+  @else if $point == lg { // Large
+    @media (min-width: 1025px) { @content; }
+  }
+}

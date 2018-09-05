@@ -1,0 +1,25 @@
+html {
+	font-size: 10px; // Set base 10 to use rem unit
+}
+
+.container {
+  background-color: $light-color;
+  color: $text-color;
+  font: $body-copy;
+}
+
+h1 {
+  font: $heading;
+
+  @include breakpoint(sm) {
+    margin-bottom: 1rem;
+  }
+
+  @include breakpoint(md) {
+    margin-bottom: 1.5rem;
+  }
+
+  @include breakpoint(lg) {
+    margin-bottom: 2rem;
+  }
+}

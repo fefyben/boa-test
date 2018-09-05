@@ -1,0 +1,34 @@
+.card {
+  background-color: $bg-color;
+  border: .7rem solid $accent-color;
+  border-left-width: 0;
+  border-top-width: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 18rem;
+
+  &-title {
+    font: $heading;
+    border-bottom: 2px solid $border-color;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+  }
+
+  &-header,
+  &-footer {
+    color: $accent-color;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &-header {
+    align-self: flex-end;
+  }
+
+  &-footer {
+    align-self: flex-start;
+  }
+}
