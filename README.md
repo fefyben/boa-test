@@ -8,5 +8,5 @@ Also, it's using Gulp to automate tasks, such as:
 * Babel to compile ES6 Javascript
 * Minify CSS and JS files
 
-## Webpage URL
+## Grocery List URL
 You can check the Grocery List page [here](http://htmlpreview.github.io/?https://github.com/fefyben/boa-test/blob/master/index.html)!
