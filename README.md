@@ -7,3 +7,6 @@ Also, it's using Gulp to automate tasks, such as:
 * Preprocessing Sass
 * Babel to compile ES6 Javascript
 * Minify CSS and JS files
+
+## Webpage URL
+You can check the Grocery List page [here](http://htmlpreview.github.io/?https://github.com/fefyben/boa-test/blob/master/index.html)!
